@@ -6,7 +6,7 @@ import dataTest from '../points.json';
 
 function Map(props) {
   const data = dataTest.features.slice(0, 20);
-  mapboxgl.accessToken = 'pk.eyJ1Ijoicm9zc2lmdW1pNDYiLCJhIjoiY2trY2FxMjZoMGVkODJwbGM3a2M1Y3NzaSJ9.1_39Qa-mTk7sKaBBdTXoXg';
+  mapboxgl.accessToken = 'pk.eyJ1Ijoicm9zc2lmdW1pNDYiLCJhIjoiY2trY3BweDM5MDJxYjJxbWl2bWd5eHcydiJ9.1IjgHneYp_Wvwd5Xcm3ByA';
 
   const [ points, setPoints ] = useState([]);
 
