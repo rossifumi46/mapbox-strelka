@@ -1,0 +1,27 @@
+.map {
+  display: flex;
+}
+
+.map__left-column {
+  width: 30%;
+  padding: 10px;
+}
+
+.map__right-column {
+  width: 70%;
+}
+
+.map-container {
+  height: 100vh;
+}
+
+.points {
+  max-height: 95vh;
+  overflow: scroll;
+}
+
+.point {
+  padding: 5px 20px;
+  border: 2px solid #000;
+  margin-top: 5px;
+}

@@ -1,0 +1,33 @@
+.popup {
+  display: flex;
+  position: fixed; 
+  background: #00000080;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__close {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.popup__container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 10px;
+  width: 430px;
+  padding: 36px;
+  position: relative;
+}
